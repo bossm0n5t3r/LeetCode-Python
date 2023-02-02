@@ -27,7 +27,6 @@ class Solution:
         for test in tests:
             str1, str2, test_result = test
             result = self.gcdOfStrings(str1, str2)
-            print(result)
             print(result == test_result)
 
 
